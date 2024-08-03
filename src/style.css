@@ -28,15 +28,13 @@ nav {
 
 ul {
   display: flex;
-  /* gap: 20px; */
 }
 
 .nav_link {
-  margin: 0 10px;
+  height: 15px;
   align-self: center;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  size: 12;
+  font-weight: 400;
   font-size: 12px;
   text-wrap: nowrap;
   font-style: normal;
@@ -44,12 +42,25 @@ ul {
   color: black;
 }
 
+.nav_link_margin {
+  margin: 0 10px;
+}
+
+.nav_link_mright {
+  margin-right: 10px;
+}
+
+.nav_link_mleft {
+  margin-left: 10px;
+}
+
 .nav_link:hover {
   color: #00ACDC;
 }
 
-.nav_link:active {
-  border-bottom: 10px;
+.nav_link::after {
+  background-color: yellow;
+  border: 10px;
   border-radius: 5px;
   border-color: #00ACDC;
 }
