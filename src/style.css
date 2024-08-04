@@ -4,6 +4,7 @@ body {
 }
 
 header {
+  position: relative;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -36,7 +37,7 @@ ul {
   height: 15px;
   align-self: center;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12px;
   text-wrap: nowrap;
   font-style: normal;
@@ -69,4 +70,9 @@ ul {
 
 li {
   list-style: none;
+}
+
+.border_nav {
+  position: absolute;
+  background-color: aquamarine;
 }
